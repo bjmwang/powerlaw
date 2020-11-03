@@ -1,6 +1,8 @@
 powerlaw: A Python Package for Analysis of Heavy-Tailed Distributions
 =====================================================================
 
+- *so far, so good.*
+
 ``powerlaw`` is a toolbox using the statistical methods developed in
 `Clauset et al. 2007 <http://arxiv.org/abs/0706.1062>`_ and `Klaus et al. 2011 <http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0019779>`_ to determine if a
 probability distribution fits a power law. Academics, please cite as:
@@ -48,15 +50,9 @@ Installation
 ------------
 ``powerlaw`` is hosted on `PyPI <https://pypi.python.org/pypi/powerlaw>`__, so installation is straightforward. The easiest way to install type this at the command line (Linux, Mac, or Windows)::
 
-    easy_install powerlaw
-
-or, better yet::
-
     pip install powerlaw
 
-``easy_install`` or ``pip`` just need to be on your PATH, which for Linux or Mac is probably the case.
-
-``pip`` should install all dependencies automagically. These other dependencies are ``numpy``, ``scipy``, and ``matplotlib``. These are all present in Enthought, Anaconda, and most other scientific Python stacks. To fit truncated power laws or gamma distributions, ``mpmath`` is also required, which is less common and is installable with::
+To fit truncated power laws or gamma distributions, ``mpmath`` is also required, which is less common and is installable with::
 
     pip install mpmath
 
